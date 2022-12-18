@@ -1,0 +1,27 @@
+#h3tag{
+    font-size: 25px; 
+}
+
+.btn-success:hover{
+    background-color: lightcoral;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+@keyframes example{
+    from{
+        box-shadow: 5px 5px 45px orange;
+    }
+    to{
+        box-shadow: 5px 5px 45px red;
+    }
+}
+
+#body1{
+    background-size: cover;
+    background-position: center;
+}
